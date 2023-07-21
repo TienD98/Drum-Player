@@ -4,7 +4,7 @@ function DrumPadDisplay({onclick}) {
     return(
         <div className="container text-center">
             <div className="row g-3 align-items-center">
-                    <ButtonPlayer sound="https://s3.amazonaws.com/freecodecamp/drums/Heater-1.mp3" click={onclick} ids="Q" icon="fa-solid fa-q fa-2xl"/>
+                    <ButtonPlayer sound="https://s3.amazonaws.com/freecodecamp/drums/Heater-1.mp3" click={onclick} ids="Q" icon="fa-solid fa-q fa-2xl" />
                     <ButtonPlayer sound="https://s3.amazonaws.com/freecodecamp/drums/Heater-2.mp3" click={onclick} ids="W" icon="fa-solid fa-w fa-2xl"/>
                     <ButtonPlayer sound="https://s3.amazonaws.com/freecodecamp/drums/Heater-3.mp3" click={onclick} ids="E" icon="fa-solid fa-e fa-2xl"/>
             </div>

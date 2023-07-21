@@ -65,7 +65,7 @@ function Drum() {
             <br />
             <div className="row align-items-center">
                 <div className='col-6'>
-                    <div className='card'>
+                    <div className='card bg-info-subtle'>
                         <div className='card-body'>
                             <DrumPadDisplay onclick={handleOnclick} />
                         </div>
